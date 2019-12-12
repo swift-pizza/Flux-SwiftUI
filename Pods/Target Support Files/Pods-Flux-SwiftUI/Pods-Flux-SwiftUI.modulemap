@@ -1,0 +1,6 @@
+framework module Pods_Flux_SwiftUI {
+  umbrella header "Pods-Flux-SwiftUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

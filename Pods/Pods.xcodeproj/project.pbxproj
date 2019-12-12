@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		234DE0967C3C63FB8AB002835F234948 /* Pods-Flux-SwiftUIUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 458641AF18A18CD2469BDE21262281CD /* Pods-Flux-SwiftUIUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B3FB836EC89DAF2019330AA3A701FC7 /* StatefulStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84BB4732E8B582A62252ABA5B3FEAD1 /* StatefulStore.swift */; };
+		32D62D102DD292C997B1295942336DD4 /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DFFB95567309B53BE68EC88A36B2C4 /* Receipt.swift */; };
+		3B03FD34D780200D2CF23250B8ED4AD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4A44A1F2073895E799E37FE226312834 /* Pods-Flux-SwiftUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD2F3C2A16E4864BF7A70293DC92E7D /* Pods-Flux-SwiftUI-dummy.m */; };
+		54957989987D590E96887927E0A3B7AF /* WordPressFlux-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD7DC7F0C75EF15414C8BF4947D1C22 /* WordPressFlux-dummy.m */; };
+		6870F0ABE0C45D5E67B95CC6C4F10F4E /* Pods-Flux-SwiftUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE19CCC77F9C864346F1BED288253C1 /* Pods-Flux-SwiftUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69E30B1F1C100B5256ECAE8C1A041851 /* Pods-Flux-SwiftUIUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7020CDC00223A8A27B971DF70A6C4B3 /* Pods-Flux-SwiftUIUITests-dummy.m */; };
+		88C3439AA32DBB0588C4C2C40129D5FB /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE30F22C99C8DEF956622D7D2E42F1 /* Observable.swift */; };
+		92730A7034D7892ABF9D4B050511FDC4 /* WordPressFlux.h in Headers */ = {isa = PBXBuildFile; fileRef = 866BD120CCD6ED5542E67A8C83E9CF43 /* WordPressFlux.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFEDC6B8113BE379DC25371C8E9064F5 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727B41D362A0AE66A7F9D46BEE1464AE /* Store.swift */; };
+		B4F06B8E43A13DAA6E4629F7A6D86DA5 /* WordPressFlux-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E38AB683206DBB8213FBF8B984B478A /* WordPressFlux-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA561164229DFAE735510F9AE2522C09 /* Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4784861EA081A1FEDE8535DEE863F9AF /* Dispatcher.swift */; };
+		C8ADA9D561A7D70837365EAA23ED2D3B /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B9B26DA86509A8A69CBE4FF304D37F /* Action.swift */; };
+		C8F7C04FE7DB23B54E9A00CFC238E434 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EF3C40482998BCA0FCCE7743F9B77AE1 /* QueryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF79E39476A128DD5A8EC979CBD9F1E /* QueryStore.swift */; };
+		F25A04D686AEA6680412D038A960ADB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46109FBD537C30DF74A7BDC5BCB3A30D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26BE50B022889376FB7BFC93BCA9E601;
+			remoteInfo = WordPressFlux;
+		};
+		88DBFFC580404CA153F882902A51DEC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 013921E0BE0AD2D1393FC2577E27140C;
+			remoteInfo = "Pods-Flux-SwiftUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		110AFBDB22754C9FE09D1AEDBAD8BABC /* WordPressFlux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WordPressFlux.framework; path = WordPressFlux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C2861412AFBE652ABB7836B428C5EA /* Pods-Flux-SwiftUIUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Flux-SwiftUIUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C66EBF80C79BF5480F911A1D61C5D05 /* WordPressFlux.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WordPressFlux.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34B9B26DA86509A8A69CBE4FF304D37F /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = WordPressFlux/Sources/Action.swift; sourceTree = "<group>"; };
+		3BBBAF7524AB95FBC42CF34AF777AC6A /* Pods-Flux-SwiftUI-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Flux-SwiftUI-frameworks.sh"; sourceTree = "<group>"; };
+		3E38AB683206DBB8213FBF8B984B478A /* WordPressFlux-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WordPressFlux-umbrella.h"; sourceTree = "<group>"; };
+		437D47A159CFC458CE8439E47846E283 /* Pods-Flux-SwiftUIUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flux-SwiftUIUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		458641AF18A18CD2469BDE21262281CD /* Pods-Flux-SwiftUIUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Flux-SwiftUIUITests-umbrella.h"; sourceTree = "<group>"; };
+		4784861EA081A1FEDE8535DEE863F9AF /* Dispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dispatcher.swift; path = WordPressFlux/Sources/Dispatcher.swift; sourceTree = "<group>"; };
+		58306B03548CD08E15F5F63684402983 /* WordPressFlux-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WordPressFlux-Info.plist"; sourceTree = "<group>"; };
+		6605278D731B254C58A040C2FC0F74C4 /* Pods-Flux-SwiftUIUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Flux-SwiftUIUITests.modulemap"; sourceTree = "<group>"; };
+		6EF79E39476A128DD5A8EC979CBD9F1E /* QueryStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueryStore.swift; path = WordPressFlux/Sources/QueryStore.swift; sourceTree = "<group>"; };
+		727B41D362A0AE66A7F9D46BEE1464AE /* Store.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Store.swift; path = WordPressFlux/Sources/Store.swift; sourceTree = "<group>"; };
+		7459B8DE9BA3A6B29B9ED0B0C4781FDF /* Pods-Flux-SwiftUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Flux-SwiftUI-acknowledgements.markdown"; sourceTree = "<group>"; };
+		866BD120CCD6ED5542E67A8C83E9CF43 /* WordPressFlux.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WordPressFlux.h; path = WordPressFlux/WordPressFlux.h; sourceTree = "<group>"; };
+		882416BF36CCBD75B0311F3B0D8702D2 /* Pods-Flux-SwiftUIUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flux-SwiftUIUITests-Info.plist"; sourceTree = "<group>"; };
+		91128BCD8BAEF69AD1E8684E0551B196 /* WordPressFlux-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WordPressFlux-prefix.pch"; sourceTree = "<group>"; };
+		9148DC29CF5D6FA43DF3B38A576CA9D2 /* Pods-Flux-SwiftUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Flux-SwiftUI.modulemap"; sourceTree = "<group>"; };
+		992103BD05134D4628FA3B1F4A4451DB /* Pods-Flux-SwiftUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flux-SwiftUIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FE19CCC77F9C864346F1BED288253C1 /* Pods-Flux-SwiftUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Flux-SwiftUI-umbrella.h"; sourceTree = "<group>"; };
+		A39615962467291FF60E5E44B1ADF8E2 /* Pods-Flux-SwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flux-SwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		A7020CDC00223A8A27B971DF70A6C4B3 /* Pods-Flux-SwiftUIUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Flux-SwiftUIUITests-dummy.m"; sourceTree = "<group>"; };
+		A84BB4732E8B582A62252ABA5B3FEAD1 /* StatefulStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatefulStore.swift; path = WordPressFlux/Sources/StatefulStore.swift; sourceTree = "<group>"; };
+		BFD2F3C2A16E4864BF7A70293DC92E7D /* Pods-Flux-SwiftUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Flux-SwiftUI-dummy.m"; sourceTree = "<group>"; };
+		C3E1C9F5851D92D4A701A92C9A8495F0 /* Pods-Flux-SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flux-SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		CC38A2E45472A711D93602BF586D88F1 /* Pods-Flux-SwiftUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flux-SwiftUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBD7DC7F0C75EF15414C8BF4947D1C22 /* WordPressFlux-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WordPressFlux-dummy.m"; sourceTree = "<group>"; };
+		E0DE30F22C99C8DEF956622D7D2E42F1 /* Observable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = WordPressFlux/Sources/Observable.swift; sourceTree = "<group>"; };
+		E9A0129EAE60E9C651B9D2E4607E5D2E /* Pods_Flux_SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Flux_SwiftUI.framework; path = "Pods-Flux-SwiftUI.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE15E161905987BFCC7152A5C154769D /* Pods-Flux-SwiftUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flux-SwiftUI-Info.plist"; sourceTree = "<group>"; };
+		F3DFFB95567309B53BE68EC88A36B2C4 /* Receipt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Receipt.swift; path = WordPressFlux/Sources/Receipt.swift; sourceTree = "<group>"; };
+		F9305FC3FC8FBDBF82CB84C32AD8D807 /* Pods_Flux_SwiftUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Flux_SwiftUIUITests.framework; path = "Pods-Flux-SwiftUIUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9768B08EFA444C8B2A4BB4F71D6549B /* WordPressFlux.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WordPressFlux.modulemap; sourceTree = "<group>"; };
+		FE613AE32B9488A9C126101CC69A5D3C /* Pods-Flux-SwiftUI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flux-SwiftUI-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77FC544AE003F7E2395E46071E5A9C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25A04D686AEA6680412D038A960ADB1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9000852FE93A72E0B65C0FDDAE928E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B03FD34D780200D2CF23250B8ED4AD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6B0473463AB12790B9328D6E8DE757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8F7C04FE7DB23B54E9A00CFC238E434 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41443BDFAE1FA6A0F6AF85381B3FE344 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68054A7BE64F14BEFAB6B1E7DAD5BA5F /* Pods-Flux-SwiftUI */,
+				5DA6EB2FF9B481F4723F1961AEEB3FB6 /* Pods-Flux-SwiftUIUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4AB5D33F419FDBDF12131A2657A798D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				819494BB0577974187E597C627628799 /* WordPressFlux */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5DA6EB2FF9B481F4723F1961AEEB3FB6 /* Pods-Flux-SwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6605278D731B254C58A040C2FC0F74C4 /* Pods-Flux-SwiftUIUITests.modulemap */,
+				13C2861412AFBE652ABB7836B428C5EA /* Pods-Flux-SwiftUIUITests-acknowledgements.markdown */,
+				437D47A159CFC458CE8439E47846E283 /* Pods-Flux-SwiftUIUITests-acknowledgements.plist */,
+				A7020CDC00223A8A27B971DF70A6C4B3 /* Pods-Flux-SwiftUIUITests-dummy.m */,
+				882416BF36CCBD75B0311F3B0D8702D2 /* Pods-Flux-SwiftUIUITests-Info.plist */,
+				458641AF18A18CD2469BDE21262281CD /* Pods-Flux-SwiftUIUITests-umbrella.h */,
+				CC38A2E45472A711D93602BF586D88F1 /* Pods-Flux-SwiftUIUITests.debug.xcconfig */,
+				992103BD05134D4628FA3B1F4A4451DB /* Pods-Flux-SwiftUIUITests.release.xcconfig */,
+			);
+			name = "Pods-Flux-SwiftUIUITests";
+			path = "Target Support Files/Pods-Flux-SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+		68054A7BE64F14BEFAB6B1E7DAD5BA5F /* Pods-Flux-SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				9148DC29CF5D6FA43DF3B38A576CA9D2 /* Pods-Flux-SwiftUI.modulemap */,
+				7459B8DE9BA3A6B29B9ED0B0C4781FDF /* Pods-Flux-SwiftUI-acknowledgements.markdown */,
+				FE613AE32B9488A9C126101CC69A5D3C /* Pods-Flux-SwiftUI-acknowledgements.plist */,
+				BFD2F3C2A16E4864BF7A70293DC92E7D /* Pods-Flux-SwiftUI-dummy.m */,
+				3BBBAF7524AB95FBC42CF34AF777AC6A /* Pods-Flux-SwiftUI-frameworks.sh */,
+				EE15E161905987BFCC7152A5C154769D /* Pods-Flux-SwiftUI-Info.plist */,
+				9FE19CCC77F9C864346F1BED288253C1 /* Pods-Flux-SwiftUI-umbrella.h */,
+				A39615962467291FF60E5E44B1ADF8E2 /* Pods-Flux-SwiftUI.debug.xcconfig */,
+				C3E1C9F5851D92D4A701A92C9A8495F0 /* Pods-Flux-SwiftUI.release.xcconfig */,
+			);
+			name = "Pods-Flux-SwiftUI";
+			path = "Target Support Files/Pods-Flux-SwiftUI";
+			sourceTree = "<group>";
+		};
+		710C40D0850024A814D2DAD09A094F0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9A0129EAE60E9C651B9D2E4607E5D2E /* Pods_Flux_SwiftUI.framework */,
+				F9305FC3FC8FBDBF82CB84C32AD8D807 /* Pods_Flux_SwiftUIUITests.framework */,
+				110AFBDB22754C9FE09D1AEDBAD8BABC /* WordPressFlux.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		819494BB0577974187E597C627628799 /* WordPressFlux */ = {
+			isa = PBXGroup;
+			children = (
+				34B9B26DA86509A8A69CBE4FF304D37F /* Action.swift */,
+				4784861EA081A1FEDE8535DEE863F9AF /* Dispatcher.swift */,
+				E0DE30F22C99C8DEF956622D7D2E42F1 /* Observable.swift */,
+				6EF79E39476A128DD5A8EC979CBD9F1E /* QueryStore.swift */,
+				F3DFFB95567309B53BE68EC88A36B2C4 /* Receipt.swift */,
+				A84BB4732E8B582A62252ABA5B3FEAD1 /* StatefulStore.swift */,
+				727B41D362A0AE66A7F9D46BEE1464AE /* Store.swift */,
+				866BD120CCD6ED5542E67A8C83E9CF43 /* WordPressFlux.h */,
+				E30EF9E39BAAB5613197EE2491AA6B56 /* Support Files */,
+			);
+			name = WordPressFlux;
+			path = WordPressFlux;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4AB5D33F419FDBDF12131A2657A798D5 /* Pods */,
+				710C40D0850024A814D2DAD09A094F0B /* Products */,
+				41443BDFAE1FA6A0F6AF85381B3FE344 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E30EF9E39BAAB5613197EE2491AA6B56 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9768B08EFA444C8B2A4BB4F71D6549B /* WordPressFlux.modulemap */,
+				1C66EBF80C79BF5480F911A1D61C5D05 /* WordPressFlux.xcconfig */,
+				DBD7DC7F0C75EF15414C8BF4947D1C22 /* WordPressFlux-dummy.m */,
+				58306B03548CD08E15F5F63684402983 /* WordPressFlux-Info.plist */,
+				91128BCD8BAEF69AD1E8684E0551B196 /* WordPressFlux-prefix.pch */,
+				3E38AB683206DBB8213FBF8B984B478A /* WordPressFlux-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WordPressFlux";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		63654FEF9B67F78B8E86B952BF3D6DCE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6870F0ABE0C45D5E67B95CC6C4F10F4E /* Pods-Flux-SwiftUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8665C67F27958C50831312F68BBBC748 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F06B8E43A13DAA6E4629F7A6D86DA5 /* WordPressFlux-umbrella.h in Headers */,
+				92730A7034D7892ABF9D4B050511FDC4 /* WordPressFlux.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DDA1C74FB11A438547544C54ACDBB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234DE0967C3C63FB8AB002835F234948 /* Pods-Flux-SwiftUIUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		013921E0BE0AD2D1393FC2577E27140C /* Pods-Flux-SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7D323D0DB92C79E3929FFCF577EA5E /* Build configuration list for PBXNativeTarget "Pods-Flux-SwiftUI" */;
+			buildPhases = (
+				63654FEF9B67F78B8E86B952BF3D6DCE /* Headers */,
+				A36C88EDDFB8F50B985FE44A067EE111 /* Sources */,
+				77FC544AE003F7E2395E46071E5A9C3B /* Frameworks */,
+				2A43F2472D4897F42C3063FEF10C74C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				109683DF76677B142D5689887E388D14 /* PBXTargetDependency */,
+			);
+			name = "Pods-Flux-SwiftUI";
+			productName = "Pods-Flux-SwiftUI";
+			productReference = E9A0129EAE60E9C651B9D2E4607E5D2E /* Pods_Flux_SwiftUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		26BE50B022889376FB7BFC93BCA9E601 /* WordPressFlux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573C0AEB3132E66A257F8585A5277646 /* Build configuration list for PBXNativeTarget "WordPressFlux" */;
+			buildPhases = (
+				8665C67F27958C50831312F68BBBC748 /* Headers */,
+				F08A385EB772FC2FA5FDB7CA0BC22BE9 /* Sources */,
+				FA6B0473463AB12790B9328D6E8DE757 /* Frameworks */,
+				A2D6A2643549B20F3FA79F2803E7566E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordPressFlux;
+			productName = WordPressFlux;
+			productReference = 110AFBDB22754C9FE09D1AEDBAD8BABC /* WordPressFlux.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7A0F11D39EBFBCA7F37E8EE9520C0BF /* Pods-Flux-SwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15375BF8F06A1C59E7E3AF6882DA79B4 /* Build configuration list for PBXNativeTarget "Pods-Flux-SwiftUIUITests" */;
+			buildPhases = (
+				E0DDA1C74FB11A438547544C54ACDBB7 /* Headers */,
+				C327A2A46359D0A3CB4BDB29F0A576D0 /* Sources */,
+				CF9000852FE93A72E0B65C0FDDAE928E /* Frameworks */,
+				84DB2457FBB86756B80D40984D0D2324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E94E07ED77AE75B44FC870F72788AEE /* PBXTargetDependency */,
+			);
+			name = "Pods-Flux-SwiftUIUITests";
+			productName = "Pods-Flux-SwiftUIUITests";
+			productReference = F9305FC3FC8FBDBF82CB84C32AD8D807 /* Pods_Flux_SwiftUIUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 710C40D0850024A814D2DAD09A094F0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				013921E0BE0AD2D1393FC2577E27140C /* Pods-Flux-SwiftUI */,
+				B7A0F11D39EBFBCA7F37E8EE9520C0BF /* Pods-Flux-SwiftUIUITests */,
+				26BE50B022889376FB7BFC93BCA9E601 /* WordPressFlux */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A43F2472D4897F42C3063FEF10C74C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DB2457FBB86756B80D40984D0D2324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D6A2643549B20F3FA79F2803E7566E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A36C88EDDFB8F50B985FE44A067EE111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A44A1F2073895E799E37FE226312834 /* Pods-Flux-SwiftUI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C327A2A46359D0A3CB4BDB29F0A576D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E30B1F1C100B5256ECAE8C1A041851 /* Pods-Flux-SwiftUIUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08A385EB772FC2FA5FDB7CA0BC22BE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8ADA9D561A7D70837365EAA23ED2D3B /* Action.swift in Sources */,
+				BA561164229DFAE735510F9AE2522C09 /* Dispatcher.swift in Sources */,
+				88C3439AA32DBB0588C4C2C40129D5FB /* Observable.swift in Sources */,
+				EF3C40482998BCA0FCCE7743F9B77AE1 /* QueryStore.swift in Sources */,
+				32D62D102DD292C997B1295942336DD4 /* Receipt.swift in Sources */,
+				2B3FB836EC89DAF2019330AA3A701FC7 /* StatefulStore.swift in Sources */,
+				AFEDC6B8113BE379DC25371C8E9064F5 /* Store.swift in Sources */,
+				54957989987D590E96887927E0A3B7AF /* WordPressFlux-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		109683DF76677B142D5689887E388D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WordPressFlux;
+			target = 26BE50B022889376FB7BFC93BCA9E601 /* WordPressFlux */;
+			targetProxy = 46109FBD537C30DF74A7BDC5BCB3A30D /* PBXContainerItemProxy */;
+		};
+		9E94E07ED77AE75B44FC870F72788AEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Flux-SwiftUI";
+			target = 013921E0BE0AD2D1393FC2577E27140C /* Pods-Flux-SwiftUI */;
+			targetProxy = 88DBFFC580404CA153F882902A51DEC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8A91F9638465817FC30E708FD5849B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A39615962467291FF60E5E44B1ADF8E2 /* Pods-Flux-SwiftUI.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Flux-SwiftUI/Pods-Flux-SwiftUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Flux-SwiftUI/Pods-Flux-SwiftUI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8ADC880A522E84BDA972899223D85920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 992103BD05134D4628FA3B1F4A4451DB /* Pods-Flux-SwiftUIUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Flux-SwiftUIUITests/Pods-Flux-SwiftUIUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Flux-SwiftUIUITests/Pods-Flux-SwiftUIUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BA71F07B2BFD3DD82C88BDA6E94A73F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC38A2E45472A711D93602BF586D88F1 /* Pods-Flux-SwiftUIUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Flux-SwiftUIUITests/Pods-Flux-SwiftUIUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Flux-SwiftUIUITests/Pods-Flux-SwiftUIUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EE113F2996E2871806DFD1BCC6B386AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3E1C9F5851D92D4A701A92C9A8495F0 /* Pods-Flux-SwiftUI.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Flux-SwiftUI/Pods-Flux-SwiftUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Flux-SwiftUI/Pods-Flux-SwiftUI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF949D9982FF2C3A0E043F9EE0320002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C66EBF80C79BF5480F911A1D61C5D05 /* WordPressFlux.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WordPressFlux/WordPressFlux-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WordPressFlux/WordPressFlux-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WordPressFlux/WordPressFlux.modulemap";
+				PRODUCT_MODULE_NAME = WordPressFlux;
+				PRODUCT_NAME = WordPressFlux;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4EF449E9737B7C9F27CC43C37F27195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C66EBF80C79BF5480F911A1D61C5D05 /* WordPressFlux.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WordPressFlux/WordPressFlux-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WordPressFlux/WordPressFlux-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WordPressFlux/WordPressFlux.modulemap";
+				PRODUCT_MODULE_NAME = WordPressFlux;
+				PRODUCT_NAME = WordPressFlux;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15375BF8F06A1C59E7E3AF6882DA79B4 /* Build configuration list for PBXNativeTarget "Pods-Flux-SwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA71F07B2BFD3DD82C88BDA6E94A73F6 /* Debug */,
+				8ADC880A522E84BDA972899223D85920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		573C0AEB3132E66A257F8585A5277646 /* Build configuration list for PBXNativeTarget "WordPressFlux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4EF449E9737B7C9F27CC43C37F27195 /* Debug */,
+				EF949D9982FF2C3A0E043F9EE0320002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7D323D0DB92C79E3929FFCF577EA5E /* Build configuration list for PBXNativeTarget "Pods-Flux-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A91F9638465817FC30E708FD5849B07 /* Debug */,
+				EE113F2996E2871806DFD1BCC6B386AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
