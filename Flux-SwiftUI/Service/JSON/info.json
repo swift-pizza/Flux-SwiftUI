@@ -1,0 +1,47 @@
+{
+    "sections": [
+        {
+            "id": "c0d10dce-1aea-4c31-b30a-e415d6a81701",
+            "title": "Github",
+            "info": [
+                {
+                    "id": "270df7fb-8bcb-4dd1-9ab1-d5caf1c749aa",
+                    "icon": "github",
+                    "title": "Swift & Pizza",
+                    "url": "https://github.com/swift-pizza"
+                },
+                {
+                    "id": "1743614a-6e11-4b87-bda3-6fab80a9db8b",
+                    "icon": "github",
+                    "title": "Daniele Bogo",
+                    "url": "https://github.com/danielebogo"
+                }
+            ]
+        },
+        {
+            "id": "b7248d4a-6087-4080-8af6-dd1e2b9497a3",
+            "title": "Site",
+            "info": [
+                {
+                    "id": "928ce73c-8f7e-4cc3-b29f-bb16fe8cd0e2",
+                    "icon": "website",
+                    "title": "Swift & Pizza",
+                    "url": "https://www.swiftandpizza.com"
+                }
+            ]
+        },
+        {
+            "id": "419d09a9-8419-4d35-bb8c-630902622eb4",
+            "title": "Twitter",
+            "info": [
+                {
+                    "id": "627d99d3-15e0-49d9-9930-4d76e694e76b",
+                    "icon": "twitter",
+                    "title": "@theillbo",
+                    "url": "https://twitter.com/theillbo"
+                }
+            ]
+        }
+    ]
+}
+
