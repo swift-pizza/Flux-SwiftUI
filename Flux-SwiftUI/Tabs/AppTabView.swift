@@ -1,16 +1,16 @@
 import SwiftUI
 
 struct AppTabView: View {
-    let environment: Environment
+    private let service = PizzeriaService(Environment.local)
     
     var body: some View {
         TabView {
-            MenusView()
+            MenusView(service: service)
                 .tabItem {
                     Image.tintableImage("tab-swift")
                     Text("Menus")
             }
-            InfoView(environment: environment)
+            InfoView(service: service)
                 .tabItem {
                     Image.tintableImage("tab-info")
                     Text("Info")
@@ -23,6 +23,6 @@ struct AppTabView: View {
 
 struct TabView_Previews: PreviewProvider {
     static var previews: some View {
-        AppTabView(environment: Constants.environment)
+        AppTabView()
     }
 }

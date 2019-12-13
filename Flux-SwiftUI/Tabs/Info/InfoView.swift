@@ -2,22 +2,17 @@ import SwiftUI
 
 struct InfoView: View {
     @ObservedObject private var viewModel: InfoViewModel<PizzeriaService>
-    
-    private let service: PizzeriaService
         
-    init(environment: Environment) {
-        self.service = PizzeriaService(environment)
-        let store: InfoStore<PizzeriaService> = InfoStore(service: self.service)
+    init(service: PizzeriaService) {
+        let store: InfoStore<PizzeriaService> = InfoStore(service: service)
         self.viewModel = InfoViewModel(store: store)
     }
     
     var body: some View {
-        VStack {
-            NavigationView {
-                viewForState(self.viewModel.state)
-                    .navigationBarTitle(Text(Constants.ScreenTitles.info), displayMode: .inline)
-                    .navigationViewStyle(StackNavigationViewStyle())
-            }
+        NavigationView {
+            viewForState(self.viewModel.state)
+                .navigationBarTitle(Text(Constants.ScreenTitles.info), displayMode: .inline)
+                .navigationViewStyle(StackNavigationViewStyle())
         }
         .onAppear {
             self.viewModel.fetchInfo()
@@ -41,6 +36,6 @@ private extension InfoView {
 
 struct InfoView_Previews: PreviewProvider {
     static var previews: some View {
-        InfoView(environment: Environment.local)
+        InfoView(service: PizzeriaService(Environment.local))
     }
 }

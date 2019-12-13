@@ -1,19 +1,23 @@
 {
 	"menus": [
 		{
-			"type": "classic",
+            "id": "5ed82a3a-65a3-4e0f-8e36-f504783c7465",
+            "type": "classic",
 			"title": "Classic Pizzas"
 		},
 		{
-			"type": "white",
+			"id": "7a6d6a86-f51a-48bc-845a-72845093d6f8",
+            "type": "white",
 			"title": "White Pizzas"
 		},
 		{
-			"type": "light",
+			"id": "02815393-9b2c-462e-961b-dde5bbf68815",
+            "type": "light",
 			"title": "Light Pizzas"
 		},
 		{
-			"type": "special",
+			"id": "00f9f076-0ab1-4733-bab7-c6c657372807",
+            "type": "special",
 			"title": "Special Pizzas"
 		}
 	]

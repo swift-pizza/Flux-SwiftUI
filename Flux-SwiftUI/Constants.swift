@@ -10,7 +10,7 @@ enum Constants {
     }
     
     enum ScreenTitles {
-        static let project = "Flux + ViewModel"
+        static let project = "Flux + SwiftUI"
         static let info = "Info"
     }
 }

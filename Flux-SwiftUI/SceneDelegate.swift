@@ -23,10 +23,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         standard.configureWithOpaqueBackground()
         standard.backgroundColor = .customUIColor(.red)
         standard.titleTextAttributes = [.foregroundColor: UIColor.white]
+        
         UINavigationBar.appearance().standardAppearance = standard
+        UINavigationBar.appearance().tintColor = .white
         
         // Create the SwiftUI view that provides the window contents.
-        let contentView = AppTabView(environment: Constants.environment)
+        let contentView = AppTabView()
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {

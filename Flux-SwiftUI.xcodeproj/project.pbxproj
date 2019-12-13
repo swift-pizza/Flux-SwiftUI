@@ -43,6 +43,7 @@
 		9AF3B47223A3DD5A00D5562C /* InfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3B47123A3DD5A00D5562C /* InfoRow.swift */; };
 		9AF3B47523A3DDE300D5562C /* MenusListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3B47423A3DDE300D5562C /* MenusListView.swift */; };
 		9AF3B47723A3E33600D5562C /* MenusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3B47623A3E33600D5562C /* MenusViewModel.swift */; };
+		9AF3B47D23A3ED6C00D5562C /* PizzasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3B47C23A3ED6C00D5562C /* PizzasView.swift */; };
 		E63B6F442EAC49353537D7E5 /* Pods_Flux_SwiftUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73245DC8C2DD2DBA014970F0 /* Pods_Flux_SwiftUIUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +101,7 @@
 		9AF3B47123A3DD5A00D5562C /* InfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRow.swift; sourceTree = "<group>"; };
 		9AF3B47423A3DDE300D5562C /* MenusListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenusListView.swift; sourceTree = "<group>"; };
 		9AF3B47623A3E33600D5562C /* MenusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenusViewModel.swift; sourceTree = "<group>"; };
+		9AF3B47C23A3ED6C00D5562C /* PizzasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzasView.swift; sourceTree = "<group>"; };
 		D8CF8B9EC46FDF22E591BD1D /* Pods_Flux_SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flux_SwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC78947667FE0022E406602E /* Pods-Flux-SwiftUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flux-SwiftUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-Flux-SwiftUIUITests/Pods-Flux-SwiftUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -202,6 +204,7 @@
 				9A90E54F23A2A88A00FE3523 /* MenusView.swift */,
 				9AF3B47623A3E33600D5562C /* MenusViewModel.swift */,
 				9AF3B47323A3DDD100D5562C /* List */,
+				9AF3B47B23A3ED4C00D5562C /* Pizzas */,
 			);
 			path = Menus;
 			sourceTree = "<group>";
@@ -322,6 +325,14 @@
 				9AF3B47423A3DDE300D5562C /* MenusListView.swift */,
 			);
 			path = List;
+			sourceTree = "<group>";
+		};
+		9AF3B47B23A3ED4C00D5562C /* Pizzas */ = {
+			isa = PBXGroup;
+			children = (
+				9AF3B47C23A3ED6C00D5562C /* PizzasView.swift */,
+			);
+			path = Pizzas;
 			sourceTree = "<group>";
 		};
 		D79373E2AF89DA06F8FB6F10 /* Pods */ = {
@@ -516,6 +527,7 @@
 				9AF3B46B23A3BCE800D5562C /* InfoListView.swift in Sources */,
 				9AF3B47523A3DDE300D5562C /* MenusListView.swift in Sources */,
 				9A90E52A23A2A42E00FE3523 /* AppDelegate.swift in Sources */,
+				9AF3B47D23A3ED6C00D5562C /* PizzasView.swift in Sources */,
 				9A90E55023A2A88A00FE3523 /* MenusView.swift in Sources */,
 				9AF3B46023A2B24700D5562C /* InfoViewModel.swift in Sources */,
 				9AF3B44F23A2B04600D5562C /* PizzeriaService.swift in Sources */,
