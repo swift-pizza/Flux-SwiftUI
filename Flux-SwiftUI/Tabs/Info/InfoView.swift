@@ -26,15 +26,15 @@ struct InfoView: View {
 }
 
 private extension InfoView {
-    func viewForState(_ state: InfoViewModel<PizzeriaService>.State) -> AnyView {
+    func viewForState(_ state: FetchingStatus) -> AnyView {
         switch state {
-        case .idle, .loading:
+        case .idle, .fetching:
             return AnyView(LoadingView(isAnimating: .constant(true)))
-        case .completed(let success):
-            if success {
+        case .fetchingCompleted(let error):
+            guard let error = error else {
                 return AnyView(InfoListView(sections: viewModel.sections))
             }
-            return AnyView(Text("Error Loading"))
+            return AnyView(Text(error.localizedDescription))
         }
     }
 }

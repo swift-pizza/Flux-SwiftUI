@@ -16,19 +16,12 @@ class InfoViewModel<Service: RemoteService>: ObservableObject {
     private var storeReceipt: Receipt?
     private let store: InfoStore<Service>
 
-    @Published private (set) var state: State = .idle
+    @Published private (set) var state: FetchingStatus = .idle
     
     init(store: InfoStore<Service>) {
         self.store = store
         storeReceipt = store.onStateChange { [weak self] (_, state) in
-            switch state.status {
-            case .idle:
-                self?.state = .idle
-            case .fetching:
-                self?.state = .loading
-            case .fetchingCompleted(let error):
-                self?.state = .completed(error == nil)
-            }
+            self?.state = state.status
         }
     }
     
