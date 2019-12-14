@@ -1,21 +1,26 @@
 [
     {
+        "id": "7c21f258-f360-45a0-87bb-c49a319b3188",
         "name": "Saporita",
         "ingredients": "mozzarella, radicchio, gorgonzola, speck"
     },
     {
+        "id": "92171f62-8f9e-4be1-8ad8-e0710437463b",
         "name": "Bali",
         "ingredients": "mozzarella, gamberetti, pomodorini, uova, rucola"
     },
     {
+        "id": "6e0ba384-93a8-4198-ba4b-a8001a2d3e13",
         "name": "Bagus",
         "ingredients": "mozzarella, prosciutto, funghi, wurstel, salamino piccante, grana, origano"
     },
     {
+        "id": "1c43d232-ab70-40e8-a223-ef66b58e7503",
         "name": "Genny",
         "ingredients": "mozzarella, panna, sfilacci di cavallo"
     },
     {
+        "id": "4a6b66d0-6310-417d-83ef-927b5357dc61",
         "name": "Excalibur (arrotolata)",
         "ingredients": "mozzarella, rucola, pomodoro fresco, brie"
     }

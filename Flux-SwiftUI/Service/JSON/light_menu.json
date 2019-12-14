@@ -1,17 +1,21 @@
 [
     {
+        "id": "f0bc1930-cb5f-4443-985f-dbb1c42de8d2",
         "name": "Valdostana",
         "ingredients": "pomodoro, bresaola, rucola, grana"
     },
     {
+        "id": "0399331a-15f9-4b49-88dc-91aae22fc7f7",
         "name": "Rustica",
         "ingredients": "pomodoro, radicchio, rucola, sfilacci"
     },
     {
+        "id": "4c18ad10-ff43-4387-ae4b-cfd24c067548",
         "name": "Mediterranea",
         "ingredients": "pomodoro, zucchine, gamberetti"
     },
     {
+        "id": "bbd0ef47-e690-4b2d-92a4-ce2ace643545",
         "name": "Leggera",
         "ingredients": "pomodoro, rucola, petto d’oca"
     }

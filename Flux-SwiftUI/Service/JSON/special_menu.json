@@ -1,49 +1,61 @@
 [
     {
+        "id": "4de400a0-a379-4cdd-9620-a7751db22420",
         "name": "Ariete",
         "ingredients": "pomodoro, mozzarella, brie, speck, rucola"
     },
     {
+        "id": "60e8f0ef-d43f-48cb-8c99-28ff636ff546",
         "name": "Toro",
         "ingredients": "pomodoro, mozzarella, brie, bresaola"
     },
     {
+        "id": "95f423b0-9c62-46d9-86d3-8bbbbc2c76c5",
         "name": "Gemelli",
         "ingredients": "pomodoro, mozzarella, gorgonzola, noci"
     },
     {
+        "id": "1c33987a-f8c7-45f6-b7c1-b908ce82783e",
         "name": "Cancro",
         "ingredients": "pomodoro, mozzarella, brie, rucola"
     },
     {
+        "id": "7036345d-8a1b-4f7b-b1f4-cbf233af8879",
         "name": "Leone",
         "ingredients": "pomodoro, mozzarella, cipolla, asparagi, uova, prezzemolo"
     },
     {
+        "id": "573f2ee4-a63e-433e-a261-1e17e77da083",
         "name": "Vergine (pizza bianca)",
         "ingredients": "mozzarella, panna, speak"
     },
     {
+        "id": "ff64d60d-bcf2-4b93-be05-ca7bb085965c",
         "name": "Bilancia",
         "ingredients": "pomodoro, mozzarella, piselli, prosciutto, panna"
     },
     {
+        "id": "51a3092c-f87d-41f9-abac-59ac72c3c4cf",
         "name": "Scorpione",
         "ingredients": "pomodoro, mozzarella, salsiccia, funghi"
     },
     {
+        "id": "c24eb609-6a37-40de-bd48-a8e10c6d2ae6",
         "name": "Sagittario",
         "ingredients": "pomodoro, mozzarella, tonno, olive"
     },
     {
+        "id": "0a1e69ea-db09-41c4-b3a6-7bc41454c646",
         "name": "Capricorno",
         "ingredients": "pomodoro, mozzarella, crudo, rucola, grana"
     },
     {
+        "id": "c5d9ba06-7d8c-4a46-b1e7-2ecc18851107",
         "name": "Acquario",
         "ingredients": "pomodoro, mozzarella, gamberetti, salsa rosa"
     },
     {
+        "id": "6a7c998f-3b54-446e-b247-e2c8f59b929a",
         "name": "Pesci",
         "ingredients": "pomodoro, mozzarella, salmone, gamberetti"
     }

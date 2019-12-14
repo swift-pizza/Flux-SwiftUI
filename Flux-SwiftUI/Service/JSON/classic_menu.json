@@ -1,173 +1,216 @@
 [
     {
+        "id": "2da32bc7-aa30-4c98-bfc4-780ec063362c",
         "name": "Marinara",
         "ingredients": "pomodoro, aglio, origano"
     },
     {
+        "id": "67d07cb4-eb26-4f3b-b5e2-27456824f03c",
         "name": "Margherita",
         "ingredients": "pomodoro, mozzarella"
     },
     {
+        "id": "385cf747-7e5e-4cc0-9f8c-0be0c9cb6d77",
         "name": "Romana",
         "ingredients": "pomodoro, mozzarella, acciughe"
     },
     {
+        "id": "fe7fea64-12ea-4c5f-82a2-8462f93c30da",
         "name": "Capricciosa",
         "ingredients": "pomodoro, mozzarella, prosciutto, funghi, carciofi"
     },
     {
+        "id": "48acce84-ca62-43be-b78c-7aa73350a9c9",
         "name": "Quattro Formaggi",
         "ingredients": "pomodoro, mozzarella, formaggi misti"
     },
     {
+        "id": "17b58b61-6927-4444-8d14-829331389116",
         "name": "Siciliana",
         "ingredients": "pomodoro, mozzarella, olive, capperi, acciughe"
     },
     {
+        "id": "a6cec9ce-e948-4238-961d-24246377d8a8",
         "name": "Quattro Stagioni",
         "ingredients": "pomodoro, mozzarella, prosciutto, funghi, carciofi, acciughe"
     },
     {
+        "id": "2c6ea7f1-d652-4349-9953-183effdecf3e",
         "name": "Diavola",
         "ingredients": "pomodoro, mozzarella, salamino piccante"
     },
     {
+        "id": "140f883b-47dd-416f-9dd8-261192b24735",
         "name": "Ortolana",
         "ingredients": "pomodoro, mozzarella, verdure fresche di stagione"
     },
     {
+        "id": "00bd0f62-29b7-4107-941e-1e5e458e6bba",
         "name": "Greca",
         "ingredients": "pomodoro, mozzarella, olive nere"
     },
     {
+        "id": "08bde868-2627-4c0a-9884-9e13c9084af7",
         "name": "Viennese",
         "ingredients": "pomodoro, mozzarella, wurstel"
     },
     {
+        "id": "0e9dce38-21b0-4ebf-8563-b6057389254d",
         "name": "Calzone",
         "ingredients": "pomodoro, mozzarella, prosciutto, funghi"
     },
     {
+        "id": "0cd2f22d-ba5d-4bf9-9fe3-becbab828666",
         "name": "Napoletana",
         "ingredients": "pomodoro, mozzarella, acciughe, capperi"
     },
     {
+        "id": "c06195ab-649f-4041-a99b-e645715685dc",
         "name": "Tirolese",
         "ingredients": "pomodoro, mozzarella, gorgonzola, speck"
     },
     {
+        "id": "53ad3663-d25a-4af7-ad54-c2bac73bd7da",
         "name": "Tris di Funghi",
         "ingredients": "pomodoro, mozzarella, porcini, chiodini, finferli"
     },
     {
+        "id": "5ec98a38-b131-4a8e-8135-4ce595d81a51",
         "name": "Asparagi e Uova",
         "ingredients": "pomodoro, mozzarella, asparagi, uova"
     },
     {
+        "id": "cf40cd25-a48b-495e-bb13-de27d0c51015",
         "name": "Braccio di Ferro",
         "ingredients": "pomodoro, mozzarella, ricotta, spinaci"
     },
     {
+        "id": "ba6be204-4006-4992-bd63-cbccf0c93dae",
         "name": "Messicana",
         "ingredients": "pomodoro, mozzarella, pancetta, peperoni, cipolla, pomodoro fresco"
     },
     {
+        "id": "8d7dae36-bee9-4e2a-a19f-1ea4d7712822",
         "name": "Texana",
         "ingredients": "pomodoro, mozzarella, pancetta, cipolla, fagioli"
     },
     {
+        "id": "1f54e199-5d5a-4867-8bec-a8289615d7f8",
         "name": "Fresca",
         "ingredients": "pomodoro, mozzarella, scamorza, rucola, pomodoro fresco"
     },
     {
+        "id": "12de836d-da48-44d2-b21e-ff1d36dd4d04",
         "name": "Mari e Monti",
         "ingredients": "pomodoro, mozzarella, gamberetti, chiodini"
     },
     {
+        "id": "75011b67-328c-4ed9-ab1e-e55f37591696",
         "name": "Jolly",
         "ingredients": "pomodoro, mozzarella, tonno, piselli, mais"
     },
     {
+        "id": "07f59f3b-f60d-4aaa-a294-6517378f6e6e",
         "name": "Sotto il Segno",
         "ingredients": "pomodoro, mozzarella, porcini, brie, rucola, sfilacci di cavallo, pomodoro fresco"
     },
     {
+        "id": "e4a1e67e-bac0-4801-8d39-0cb39858a9b7",
         "name": "Boscaiola",
         "ingredients": "pomodoro, mozzarella, funghi misti, speck, rucola"
     },
     {
+        "id": "af352f9b-8e6a-4621-bab4-cffd6c322e19",
         "name": "Destriero",
         "ingredients": "pomodoro, mozzarella, porcini, sfilacci di cavallo"
     },
     {
+        "id": "4ff0e28b-0444-4bd4-a180-957f2e81f44a",
         "name": "Profumata",
         "ingredients": "pomodoro, mozzarella, melanzane, formaggio alle erbe"
     },
     {
+        "id": "d0c18d9a-5a36-47b6-b906-a445f3a272b5",
         "name": "Carbonara",
         "ingredients": "pomodoro, mozzarella, panna, pancetta, uova, grana"
     },
     {
+        "id": "4af59261-47e1-440e-a5c8-2b8b43403a81",
         "name": "Patrick",
         "ingredients": "pomodoro, mozzarella, patate fritte"
     },
     {
+        "id": "3538430b-742f-4bc1-b7f0-16e57ed81976",
         "name": "Junior (stile “Mc Donald”)",
         "ingredients": "pomodoro, mozzarella, patate fritte, wurstel"
     },
     {
+        "id": "41b6fc7d-6932-42ac-908c-470ed0129ab5",
         "name": "Tricolore",
         "ingredients": "pomodoro, mozzarella, ricotta, piselli, pomodoro fresco"
     },
     {
+        "id": "ed9aade5-cf20-42de-8e40-5c4b8f06b82d",
         "name": "Puerco",
         "ingredients": "pomodoro, mozzarella, porcini, porchetta"
     },
     {
+        "id": "8c122874-faa4-419c-9d90-c1fea5847963",
         "name": "Primavera",
         "ingredients": "pomodoro, mozzarella, stracchino, rucola, pomodoro fresco"
     },
     {
+        "id": "4259ec4d-9604-4ae6-a177-948df544eb2f",
         "name": "Deliziosa",
         "ingredients": "pomodoro, mozzarella, zucchine ai ferri, formaggio alle erbe"
     },
     {
+        "id": "b43cb70e-b776-4288-bdb7-77a067521bc0",
         "name": "Bufala",
         "ingredients": "pomodoro, mozzarella di bufala"
     },
     {
+        "id": "87c9df04-5e5d-447d-be8c-35e84e541e03",
         "name": "Nirvana",
         "ingredients": "pomodoro, mozzarella, salamino, acciughe, pomodoro fresco, aglio, origano"
     },
     {
+        "id": "62dcc6f7-028a-47af-839b-30a6bcba1073",
         "name": "Corsara",
         "ingredients": "pomodoro, mozzarella, frutti di mare"
     },
     {
+        "id": "b7cc8bff-ddeb-42ec-a788-51d7d3cbbf6a",
         "name": "Cucciata",
         "ingredients": "pomodoro, mozzarella, brie, rucola, bresaola, grana, peperoncino"
     },
     {
+        "id": "e1009ae3-df8b-4bad-9d40-211aa7462abd",
         "name": "Scott",
         "ingredients": "pomodoro, mozzarella, asparagi, carciofi, peperoni, porcini, olive, salame, origano"
     },
     {
+        "id": "f71279f5-f529-475d-a3ff-027c5374d242",
         "name": "Scott Due",
         "ingredients": "pomodoro, mozzarella, asparagi, carciofi, peperoni, funghi"
     },
     {
+        "id": "f77ca638-c4dc-47f0-a2fb-83f808bcc073",
         "name": "Columbia",
         "ingredients": "pomodoro, mozzarella, porcini, prosciutto crudo"
     },
     {
+        "id": "05febf72-de95-4bae-8aa9-6a80fe3dd6a1",
         "name": "Caprese",
         "ingredients": "pomodoro, mozzarella, pomodoro fresco, origano"
     },
     {
+        "id": "b0d87d67-bdad-4055-bbf4-d2a89514ee0e",
         "name": "Disco Volante",
         "ingredients": "pomodoro, mozzarella, prosciutto, funghi, carciofi, salame, wurstel"
     },
     {
+        "id": "69a7e8af-a25b-4c0d-9a87-297c845afe84",
         "name": "Valtellina",
         "ingredients": "pomodoro, mozzarella, bresaola, rucola, grana"
     }
