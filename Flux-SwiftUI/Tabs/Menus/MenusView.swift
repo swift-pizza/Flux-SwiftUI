@@ -27,7 +27,7 @@ private extension MenusView {
             return AnyView(LoadingView(isAnimating: .constant(true)))
         case .fetchingCompleted(let error):
             guard let error = error else {
-                return AnyView(MenusListView(sections: viewModel.menus))
+                return AnyView(MenusListView(sections: viewModel.menus, store: self.viewModel.store))
             }
             return AnyView(Text(error.localizedDescription))
         }

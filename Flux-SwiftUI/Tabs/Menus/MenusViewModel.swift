@@ -11,7 +11,7 @@ class MenusViewModel<Service: RemoteService>: ObservableObject {
     
     private var getMenusReceipt: Receipt?
     private var storeReceipt: Receipt?
-    private let store: PizzeriaStore<Service>
+    private(set) var store: PizzeriaStore<Service>
     
     init(store: PizzeriaStore<Service>) {
         self.store = store

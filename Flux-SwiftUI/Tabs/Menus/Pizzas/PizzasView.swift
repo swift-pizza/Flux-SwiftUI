@@ -1,21 +1,29 @@
 import SwiftUI
 
 struct PizzasView: View {
-    let menuType: MenuType
+    @ObservedObject private var viewModel: PizzasViewModel<PizzeriaService>
+    
+    private let menuType: MenuType
+    
+    init(store: PizzeriaStore<PizzeriaService>, menuType: MenuType) {
+        self.viewModel = PizzasViewModel(store: store, menuType: menuType)
+        self.menuType = menuType
+    }
     
     var body: some View {
-        List {
-            Section {
-                Text("Hello, World!")
-                    .navigationBarTitle(Text(menuType.rawValue.capitalized))
-            }
+        PizzasListView(pizzas: self.viewModel.getPizzas(for: self.menuType))
+            .navigationBarTitle(Text(menuType.rawValue.capitalized))
+            .listStyle(GroupedListStyle())
+            .onAppear {
+                self.viewModel.fetchPizzas(for: self.menuType)
         }
-        .listStyle(GroupedListStyle())
     }
 }
 
 struct PizzasView_Previews: PreviewProvider {
+    static let store: PizzeriaStore<PizzeriaService> = PizzeriaStore(service: PizzeriaService(Environment.local))
+
     static var previews: some View {
-        PizzasView(menuType: .light)
+        PizzasView(store: self.store, menuType: .light)
     }
 }
