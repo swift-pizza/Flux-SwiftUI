@@ -1,5 +1,15 @@
 import SwiftUI
 
+protocol A {
+    init<Service: RemoteService>(service: Service)
+}
+
+struct N: A {
+    init<Service: RemoteService>(service: Service) {
+        let store: InfoStore<Service> = InfoStore(service: service)
+    }
+}
+
 struct InfoView: View {
     @ObservedObject private var viewModel: InfoViewModel<PizzeriaService>
         
