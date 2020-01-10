@@ -4,4 +4,4 @@ An easy conversion of a Flux Swift project using SwiftUI and Combine
 
 This is the example app made with [WordPressFlux-iOS](https://github.com/wordpress-mobile/WordPressFlux-iOS) SwiftUI and Combine.
 
-Read more [here](https://swiftandpizza.com/flux-in-swift/)
+Read more [here](https://swiftandpizza.com/flux-with-swiftui-and-combine/)
